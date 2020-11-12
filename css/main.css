@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #490A3D;
   height: 100%;
   width: 100%;
 }
@@ -106,26 +106,31 @@ body {
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
-  color: #fff;
+  color: #BD1550;
 }
 
-header,
-footer {
-  background-color: #222;
+header {
+    background-color: #490A3D;
   height: 80px;
   width: 100%;
+  font-size: 3em;
+  padding: 20px;
 }
-
-main {
-  background-color: #ccc;
-  height: 250px;
+footer {
+  background-color: #490A3D;
+  height: 80px;
   width: 100%;
+  margin: 20px; 
 }
 
-header,
-footer,
 main {
-
+  background-color: #490A3D;
+  height: 200px;
+  width: 100%;
+  font-size: 2em;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex-container {   
@@ -144,10 +149,60 @@ main {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
-  width: 30%;
+  background-color: #E97F02;
   height: 200px;
 }
+.wrapper {
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    background-color: #E97F02;
+  
+  }
+  
+  .div-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 1em;
+    background-color:#E97F02;
+    height: 300px;
+    padding: 10px;
+    flex-grow: 1;
+    border-right: 1px solid #BD1550;
+  }
+  .div-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 1em;
+    background-color:#F8CA00;
+    height: 300px;
+    padding: 10px;
+    flex-grow: 1;
+    border-right: 1px solid #BD1550;
+  }
+  .div-3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30%;
+      color: #fff;
+      line-height: 1.5em;
+      font-size: 1em;
+      flex-grow: 1;
+      background-color: #8A9B0F;
+      height: 300px;
+      padding: 10px;
+    }
+  
+  
 
 /* ==========================================================================
    Helper classes
@@ -306,6 +361,7 @@ main {
     tr,
     img {
         page-break-inside: avoid;
+
     }
 
     img {
